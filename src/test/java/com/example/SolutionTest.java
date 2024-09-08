@@ -8,6 +8,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class SolutionTest {
     Solution solution = new Solution();
 
+    // Testcase mapping:
+    //    '#' -> ocean
+    //    '.' -> island (no castaway)
+    //    '*' -> island (with castaway)
     @Test
     void test1() {
         assertEquals(3, solution.solution(new String[] {".*#..*", ".*#*.#", "######", ".*..#.", "...###"}));
