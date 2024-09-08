@@ -25,17 +25,16 @@ public class Solution {
 
     private boolean markIslandMapped(int r, int c, String[] map) {
         boolean hasCastaway = false;
+
         // Bounds-checking
-        if ((r < 0) || (c < 0) || (r >= map.length) || (c >= map[0].length())) {
+        if (r < 0 || c < 0 || r >= map.length || c >= map[0].length()) {
             return hasCastaway;
         }
         // This grid location validity
         if ((map[r].charAt(c) == MAPPED) || (map[r].charAt(c) == OCEAN)) {
             return hasCastaway;
         }
-        if (map[r].charAt(c) == CASTAWAY) {
-            hasCastaway = true;
-        }
+        hasCastaway = map[r].charAt(c) == CASTAWAY;
         
         // Mark this grid location as mapped
         map[r] = map[r].substring(0, c) + MAPPED + map[r].substring(c + 1);
