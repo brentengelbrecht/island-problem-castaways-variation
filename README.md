@@ -13,7 +13,8 @@ In this variation, certain islands have one or more people stranded on them.
 The goal is to visit only those islands that have at lease one castaway on them, and so determine the minimum number of stops required. 
 
 - There could be multiple castaways on a paticular island
-- Certain islands could have no survivors
+- Certain islands could have no castaways
+- Islands are located vertically or horizontally, not diagonally
 
 For example **(in this case, answer is 1)**: 
 
