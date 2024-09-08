@@ -1,6 +1,6 @@
 # Island Problem - Castaways variation
 
-The standard "islands problem" is an interview question where you are tasked with counting the number islands in a two-dimensional matrix. 
+The standard "islands problem" is an interview question where you are tasked with counting the number of islands in a two-dimensional matrix. 
 The goal is to determine how many stops (e.g. by boat) are required to visit each island on the grid only once. 
 
 - https://leetcode.com/problems/number-of-islands/description/
