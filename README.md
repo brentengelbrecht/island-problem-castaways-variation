@@ -10,7 +10,7 @@ The solution involves counting and marking each island as it is encountered, and
 Use a recursive method to discover each location of the matrix that belongs to a particular island, in order for all parts of the island to be marked as known.
 
 In this variation, certain islands have one or more people stranded on them.
-The goal is to visit only those islands that have at lease one castaway on them, and so determine the minimum number of stops required. 
+The goal is to visit only those islands that have at least one castaway on them, and so determine the minimum number of stops required. 
 
 - There could be multiple castaways on a particular island
 - Certain islands could have no castaways
